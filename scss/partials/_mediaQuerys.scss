@@ -1,0 +1,55 @@
+@media (max-width: 1000px) {
+
+    /* Servicio */
+    .servicio__seccion__imagenes {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    /* Mapa */
+    .mapa__seccion__mapa--tamanio {
+        width:800px;
+        height:400px;
+    }
+}
+
+
+@media (max-width: 700px)   {
+
+    /* Index */
+    .inicio__seccion {
+        flex-direction: column;
+    }
+    .inicio__seccion__video {
+        width: 100%;
+        height: 100%;
+    }
+
+    /* Servicio */
+    .servicio__seccion__imagenes {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    /* Mapa */
+    .mapa__seccion__mapa--tamanio {
+        width:500px;
+        height:700px;
+    }
+
+    /* Locales */
+    .articulo-locales-suramerica, .articulo-locales-europa, .articulo-locales-asia {
+        flex-direction: column; 
+    }
+
+    /* Recetas */
+    #video_receta {
+        width:400px;
+        height:300px; 
+    }
+
+    /* Contacto */
+    form{
+        width: 100%;
+    }
+}

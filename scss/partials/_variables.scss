@@ -1,0 +1,24 @@
+/*Mapas (grupo de variables al cual podemos acceder) --> Accedemos a ellos con la propiedad map-get, seguido del nombre del mapa y su valor*/
+$color_mapa:(
+    color_primario:rgb(0, 0, 0),
+    color_secundario:rgb(230, 230, 230),
+    color_terciario:rgb(162, 198, 248),
+);
+$tamanio_fuente:(
+    pequenia:10px,
+    mediana:13px,
+    grande:30px,
+);
+/*Extend (conjunto de variables) --> Accedemos a ellos importándolos con @(nombre del extend)*/
+%centrado_padding{
+    text-align: center;
+    padding: 10px;
+}
+/* Mixin (conjunto de variables vacias que podemos declarar al momento de necesitarlas agregando su valor) --> llamamos al mixin con @include
++ nombre del mixin + los valores que queramos pasar) */
+@mixin flex ($display,$justify-content,$align-items,$column) {
+    display: $display;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $column;
+}

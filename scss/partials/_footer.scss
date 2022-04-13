@@ -1,0 +1,10 @@
+footer {
+    background-color:map-get($color_mapa, color_primario);
+    padding: 10px;
+    p {
+        text-align: center;
+        padding: 20px;
+        font-size: map-get($tamanio_fuente, pequenia);
+        color: #ffffff;
+    }
+}

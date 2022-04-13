@@ -1,0 +1,30 @@
+/* Header, logo, barra de navegación y sus estilos */
+header{
+    /*He puesto una navbar con Bootstrap. Por esa misma razón no pude realizar nesting por temor a modificar las clases
+    y que las mismas pierdan sus propiedades*/
+    .navbar {
+        position: relative;
+        background-color:map-get($color_mapa, color_primario);
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        .btn-outline-success {
+            color: map-get($color_mapa, color_terciario);
+            border-color: rgb(40, 66, 104);
+        }
+    }
+    .navbar-light .navbar-nav .nav-link.active{
+        color: map-get($color_mapa, color_terciario);
+        .navbar-nav .nav-link {
+            color:map-get($color_mapa, color_primario);
+        }
+        .navbar-toggler {
+            color: map-get($color_mapa, color_secundario);
+            border-color: map-get($color_mapa, color_secundario);
+        } 
+    }
+}
