@@ -356,8 +356,8 @@ footer p {
   }
   /* Mapa */
   .mapa__seccion__mapa--tamanio {
-    width: 800px;
-    height: 400px;
+    width: 600px;
+    height: 700px;
   }
 }
 
@@ -382,8 +382,8 @@ footer p {
   }
   /* Mapa */
   .mapa__seccion__mapa--tamanio {
-    width: 500px;
-    height: 700px;
+    width: 300px;
+    height: 500px;
   }
   /* Locales */
   .articulo-locales-suramerica, .articulo-locales-europa, .articulo-locales-asia {
