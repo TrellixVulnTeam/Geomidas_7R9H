@@ -1,6 +1,6 @@
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on [Geomidas](http://geomidas.infinityfreeapp.com/)
+- 🔭 I’m currently working on [Geomidas](https://franlue.github.io/)
 
 - 🌱 I’m currently learning **Bootstrap and JavaScript**
 
